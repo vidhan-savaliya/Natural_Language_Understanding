@@ -1,1 +1,1 @@
-Natural LanGuage Understanding
+Natural Language Understanding
