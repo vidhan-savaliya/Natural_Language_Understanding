@@ -1,0 +1,100 @@
+================================================================================
+SPORT VS POLITICS CLASSIFIER - EVALUATION REPORT
+Student: M25CSA031
+Assignment: NLU Assignment 1 - Problem 4
+================================================================================
+
+COMPLETE RESULTS TABLE:
+--------------------------------------------------------------------------------
+
+Model: Naive Bayes
+Features: Bag of Words
+Accuracy:  0.9485 (94.85%)
+Precision: 0.9313
+Recall:    0.9819
+F1-Score:  0.9560
+Training Time: 0.0030 seconds
+--------------------------------------------------------------------------------
+
+Model: Naive Bayes
+Features: TF-IDF
+Accuracy:  0.9442 (94.42%)
+Precision: 0.9209
+Recall:    0.9867
+F1-Score:  0.9526
+Training Time: 0.0015 seconds
+--------------------------------------------------------------------------------
+
+Model: Naive Bayes
+Features: N-grams (1-2)
+Accuracy:  0.9415 (94.15%)
+Precision: 0.9198
+Recall:    0.9829
+F1-Score:  0.9503
+Training Time: 0.0029 seconds
+--------------------------------------------------------------------------------
+
+Model: Logistic Regression
+Features: N-grams (1-2)
+Accuracy:  0.9296 (92.96%)
+Precision: 0.8966
+Recall:    0.9905
+F1-Score:  0.9412
+Training Time: 0.0114 seconds
+--------------------------------------------------------------------------------
+
+Model: Logistic Regression
+Features: TF-IDF
+Accuracy:  0.9285 (92.85%)
+Precision: 0.8957
+Recall:    0.9895
+F1-Score:  0.9403
+Training Time: 0.0132 seconds
+--------------------------------------------------------------------------------
+
+Model: SVM
+Features: TF-IDF
+Accuracy:  0.9274 (92.74%)
+Precision: 0.9082
+Recall:    0.9705
+F1-Score:  0.9383
+Training Time: 0.0097 seconds
+--------------------------------------------------------------------------------
+
+Model: SVM
+Features: N-grams (1-2)
+Accuracy:  0.9274 (92.74%)
+Precision: 0.9104
+Recall:    0.9676
+F1-Score:  0.9381
+Training Time: 0.0133 seconds
+--------------------------------------------------------------------------------
+
+Model: Logistic Regression
+Features: Bag of Words
+Accuracy:  0.9171 (91.71%)
+Precision: 0.9074
+Recall:    0.9514
+F1-Score:  0.9289
+Training Time: 0.0326 seconds
+--------------------------------------------------------------------------------
+
+Model: SVM
+Features: Bag of Words
+Accuracy:  0.8917 (89.17%)
+Precision: 0.8935
+Recall:    0.9190
+F1-Score:  0.9061
+Training Time: 0.0649 seconds
+--------------------------------------------------------------------------------
+
+================================================================================
+BEST PERFORMING CONFIGURATION:
+================================================================================
+Model:       Naive Bayes
+Features:    Bag of Words
+Accuracy:    0.9485 (94.85%)
+Precision:   0.9313
+Recall:      0.9819
+F1-Score:    0.9560
+================================================================================
